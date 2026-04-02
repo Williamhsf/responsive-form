@@ -1,6 +1,6 @@
 # 📝 Formulário de Criação de Conta
 
-Projeto de um formulário moderno e responsivo para criação de contas, desenvolvido com HTML, CSS e JavaScript.
+Projeto de um formulário moderno, responsivo e com validações completas, desenvolvido com HTML, CSS e JavaScript puro.
 
 ## 📱 Preview
 
@@ -18,17 +18,66 @@ Projeto de um formulário moderno e responsivo para criação de contas, desenvo
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla)
 - Font Awesome
 
 ---
 
 ## 🎯 Funcionalidades
 
-- Alternar visualização de senha 👁️
-- Inputs estilizados com ícones
-- Layout responsivo (mobile e desktop)
-- Validação básica de formulário
+- 👁️ Alternar visualização de senha
+- 📱 Layout totalmente responsivo
+- 🎨 Inputs com feedback visual (válido/inválido)
+- ⚠️ Exibição de mensagens de erro dinâmicas
+- ✅ Validação completa de formulário
+- 🔘 Validação de seleção de gênero
+
+---
+
+## 🧠 Validações implementadas
+
+### 🔤 Nome e Sobrenome
+
+- Campo obrigatório
+- Mínimo de 3 caracteres
+- Apenas letras
+
+### 📅 Data de nascimento
+
+- Campo obrigatório
+- Ano entre 1920 e atual
+
+### 📧 E-mail
+
+- Campo obrigatório
+- Formato válido com RegEx
+
+### 🔒 Senha
+
+- Mínimo de 8 caracteres
+- Pelo menos:
+  - 1 letra minúscula
+  - 1 letra maiúscula
+  - 1 número
+  - 1 caractere especial
+
+### 🔁 Confirmar senha
+
+- Deve ser igual à senha
+
+### ⚧️ Gênero
+
+- Seleção obrigatória
+
+---
+
+## 🎯 Diferenciais do projeto
+
+- Código organizado e escalável
+- Uso de funções reutilizáveis para validação
+- Estrutura baseada em objetos (`fields`)
+- Separação de responsabilidades (validação vs UI)
+- Feedback visual imediato para o usuário
 
 ---
 
@@ -50,6 +99,7 @@ Praticar conceitos de front-end, incluindo:
 - Responsividade
 - Manipulação do DOM
 - Boas práticas de UI/UX
+- Validação de formulários
 
 ---
 
